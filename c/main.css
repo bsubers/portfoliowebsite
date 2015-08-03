@@ -1150,6 +1150,26 @@ text-align:center;
 		padding: 3em 0;
 	}
 
+	.large-onethird {
+		float:left;
+		padding-bottom: 2em
+	}
+
+	.large-onethird p {
+		display:inline;
+		float:left;
+	}
+
+	.large-onethird p:after {
+		content: " | ";
+		padding: 0 .875em;
+	}
+
+
+	.large-onethird p:last-child:after {
+		content: "";
+	}
+
 }
 
 @media screen and (min-width: 960px) {
@@ -1221,11 +1241,11 @@ text-align:center;
 	}
 
 	.full .projectintro {
-	position: absolute;
-	background-color: #fff;
-	left: 4em;
-	padding: 0 2em 2em 2em;
-}
+		position: absolute;
+		background-color: #fff;
+		left: 4em;
+		padding: 0 2em 2em 2em;
+	}
 
 
 }
@@ -1270,6 +1290,15 @@ text-align:center;
 	padding-top: 0;
 }
 
+.large-onethird p {
+		display: block;
+		float:none;
+	}
+
+	.large-onethird p:after {
+		content: "";
+		padding: 0;
+	}
 
 
 }
