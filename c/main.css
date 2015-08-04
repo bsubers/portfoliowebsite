@@ -207,12 +207,12 @@ float:left;
 }
 
 a.logo{
-	width: 100px;
-	height: 100px;
+	width: 75px;
+	height: 75px;
 	overflow: hidden;
 	display: block;
 	background-image: url('../i/b_blue.svg');
-	background-size:  100px 300px;
+	background-size:  750px 225px;
 	background-repeat: no-repeat;
 	background-position: center 0;
 	border-bottom: none;
@@ -220,10 +220,10 @@ a.logo{
 }
 
 a.logo:hover{
-	background-position: center -100px;
+	background-position: center -75px;
 }
 a.logo:active{
-	background-position: center -200px;
+	background-position: center -150px;
 }
 
 /*
@@ -470,6 +470,11 @@ article {
 	background-color: rgba(35, 157, 207, 0.75);
 }
 
+p.large.hanging:before {
+content:"";
+margin-right:-10px;
+}
+
 .project {
 	width: 100%;
 	height: auto;
@@ -524,7 +529,7 @@ article {
 .projectintro img{
 	max-width:100%;
 	float:left;
-	padding-top:2em;
+	padding-top: 1em;
 }
 
 .projectintro h2{
@@ -534,22 +539,7 @@ article {
 .contact{
 	overflow: hidden; /* clears*/
 	float: left;
-	text-align: center;
 	width:100%;
-}
-
-
-.contact p{
-	font-size: 1.25em;
-	line-height: 1.5em;
-	padding-top: 0;
-}
-
-.contact a{
-	font-size: 1.25em;
-	line-height: 1.5em;
-	margin-bottom: 1em;
-	display: inline-block;
 }
 
 .portfolio {
@@ -1031,14 +1021,14 @@ text-align:center;
 @media screen and (min-width: 600px) {
 
 	h1 {
-	font-size: 3em; /* 32px */
+		font-size: 3em; /* 32px */
 	}
 
 	.heading {
-	font-weight: 800;
-	font-size:6em;
-	color: #ccc;
-}
+		font-weight: 800;
+		font-size:6em;
+		color: #ccc;
+	}
 
 	.pattern {
 		width:75%;
@@ -1142,6 +1132,11 @@ text-align:center;
 		text-align: center;
 	}
 
+	.contact{
+		padding-right: 2em;
+		width:50%;
+	}
+
 }
 
 @media screen and (min-width: 768px) {
@@ -1186,9 +1181,36 @@ text-align:center;
 		float:left;
 	}
 
+	form {
+		float:right;
+		width:50%;
+		margin-top: 1em;
+	}
+
 }
 
 @media screen and (min-width: 960px) {
+
+a.logo{
+		width: 100px;
+		height: 100px;
+		overflow: hidden;
+		display: block;
+		background-image: url('../i/b_blue.svg');
+		background-size:  100px 300px;
+		background-repeat: no-repeat;
+		background-position: center 0;
+		border-bottom: none;
+		float:left;
+	}
+
+	a.logo:hover{
+		background-position: center -100px;
+	}
+
+	a.logo:active{
+		background-position: center -200px;
+	}
 
 	.about{
 		padding:0px 200px;
@@ -1244,7 +1266,10 @@ text-align:center;
 	.project_description img{
 	width: 70%;
 	float:right;
-
+	}
+	.projectintro img {
+		max-width:100%;
+		float:left;
 	}
 
 	.outercontainer, .testimonial, .maincontent, .projectdetails, .resume, footer{
@@ -1257,9 +1282,12 @@ text-align:center;
 		left: 4em;
 		padding: 0 2em 2em 2em;
 	}
-
+/*
 	.topcontent{
 		width: 75%;
+	} */
+			.home .project {
+		width:50%;
 	}
 
 
@@ -1324,10 +1352,6 @@ text-align:center;
 	.project {
 		width: 33.33%;
 	}*/
-
-	.home .project {
-		width:50%;
-	}
 
 	.portfolio img {
 		width:100%
