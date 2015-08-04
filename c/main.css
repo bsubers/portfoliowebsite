@@ -627,6 +627,7 @@ form textarea:focus {
 	width:100%;
 	border-bottom: 0;
 	float:left;
+	border-top: 1px solid #ccc;
 }
 
 .projectnav h2 {
