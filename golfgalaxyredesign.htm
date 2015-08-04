@@ -54,13 +54,16 @@
 <script src="//use.typekit.net/rkz0dye.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 
+<script src="picturefill.js"></script>
+
 </head>
 
-<body>
+<body id="project">
 
 <div id="wrapper">
 
 <header>
+	<a class="logo" href="index.htm" alt="home page"></a>
 <div id="pattern" class="pattern">
     <!--Begin Pattern HTML-->
     <a href="#menu" class="menu-link">Menu <span class="fa fa-bars fa-1x"></span></a>
@@ -72,40 +75,100 @@
 			</ul>
 		</nav>
 </div>
-<a class="logo" href="index.htm" alt="home page"></a>
 
 </header>
-<div class="outercontainer">
-	<div class="topcontent">
-		<h1 class="heading">some work.</h1>
-	</div>
+
+<div class="banner">
+	<picture>
+		<!--[if IE 9]><video style="display: none;"><![endif]-->
+		<source srcset="i/gg_banner_2.jpg" media="(min-width: 1400px)">
+		<source srcset="i/gg_banner_2.jpg" media="(min-width: 800px)">
+		<source srcset="i/gg_banner_2.jpg, i/gg_banner.jpg 2x">
+		<!--[if IE 9]></video><![endif]-->
+		<img srcset="i/gg_banner_2.jpg" alt="test">
+	</picture>
 </div>
 
-<section class="portfolio">
 
-	<figure class="project"><a href="golfgalaxyredesign.htm"><img class="thumbnail" src="i/gg_banner_2.jpg" alt="Golf Galaxy Dashboard Redesign"/><figcaption class="textoverlay"><h2>Dashboard Redesign Concept</h2></figcaption></a></figure>
+	<div class="projectdetails">
+		<h1>Golf Galaxy Dashboard Redesign Concept</h1>
+		<div class="large-onethird">
+			<p><strong>Client: </strong>Spec</p>
+			<p><strong>When: </strong>July 2015</p>
+			<p><strong>Where: </strong>Philadelphia, Pa</p>
+			<p><strong>Platform: </strong>Adobe Illustrator</p>
+			<p><a href="http://www.alexsubers.com" target="_blank" alt="Alex Subers website">View Prototype <span class="fa fa-external-link fa-1x"></span></a></p>
+		</div>
+		<div class="large-twothird">
+			<p class="large">As a designer, I always want to improve things. I will take any opportunity to make something better, even if it doesn’t directly impact me. This instinct of mine kicked in one afternoon while at Golf Galaxy, when I caught a glimpse of a dashboard employees use to manage orders. The UI was scattered and lacked order and hierarchy. There was much room for improvement. I set out to design an new version of this dashboard, with customer information integrated so sale associates could make informed recommendations based on the customers buying history and swing performance data gathered by the indoor driving range simulator.</p>
+		</div>
+	</div>
 
-		<figure class="project"><a href="hollister.htm"><img class="thumbnail" src="i/hollister_banner_2.jpg" alt="Hollister Creative work thumbnail"/><figcaption class="textoverlay"><h2>Hollister Creative</h2></figcaption></a></figure>
-
-
-	<figure class="project"><a href="alexsubers.htm"><img class="thumbnail" src="i/alexsubers_banner_large.jpg" alt="Alex Subers website"/><figcaption class="textoverlay"><h2>Alex Subers WordPress Website</h2></figcaption></a></figure>
-
-	<figure class="project"><a href="uxclass.htm"><img class="thumbnail" src="i/215_banner.jpg" alt="UArts UX + Usability Project"/><figcaption class="textoverlay"><h2>UX + Usability Project</h2></figcaption></a></figure>
-
-	<figure class="project"><a href="uartsproject.htm"><img class="thumbnail" src="i/uarts_banner.jpg" alt="UArts website thumbnail"/><figcaption class="textoverlay"><h2>Uarts project</h2></figcaption></a></figure>
-
-	<figure class="project"><a href="onoma.htm"><img class="thumbnail" src="i/onoma_banner.jpg" alt="Onoma Digital thumbnail"/><figcaption class="textoverlay"><h2>&Oacute;noma Digital Branding</h2></figcaption></a></figure>
-
-	<figure class="project"><a href="helicopters.htm"><img class="thumbnail" src="i/heli_banner_nexus.jpg" alt="Helicopter Interface thumbnail"/><figcaption class="textoverlay"><h2>Helicopter Interface</h2></figcaption></a></figure>
-
-	<figure class="project"><a href="versa.htm"><img class="thumbnail" src="i/versa_banner.jpg" alt="versa thumbnail"/><figcaption class="textoverlay"><h2>Versa Branding</h2></figcaption></a></figure>
-	
-<div class="largelink"><a href="mailto:hello@bensubers.com">Contact Ben <span class="fa fa-envelope-o fa-1x"></span></a></div>
+<section class="maincontent">
+	<div class="project_description">
+		<div class="projectintro">
+			<h2>A glimpse of a bad interface</h2>
+			<p>I couldn't bare the thought that employees would have to use such an awful interface. The spacing was off, there were things everything. Absolutely no order. I snapped a photo and set out to make it better.</p>
+		</div>
+		<img src="i/golfgalaxy_original.jpg" alt="Original Golf Galaxy Dashboard">
+	</div>
 </section>
+
+<div class="full">
+		<div class="projectintro">
+			<h2>Sketching before software</h2>
+			<p>Quickly fleshing out ideas with paper and marker helps me zero in good options, as well as find out the bad options. After sketching, I jumped into Illustrator to wireframe.</p>
+		</div>
+		<img src="i/gg_sketch.jpg" alt="golf galaxy dashboard sketches">
+</div>
+
+<section class="maincontent">
+
+	<div class="gallery">
+		<img src="i/golf_galaxy_wireframes_3.jpg" alt="golf galaxy wireframe">
+	</div>
+
+	<div class="project_description">
+		<div class="projectintro">
+			<h2>Establiashing a grid</h2>
+			<p>Based on my typography scale, I use a few blocks to create consistency throughout the design. Multiples of 14px were used for spacing and sizing.</p>
+			<img src="i/golf_galaxy_pixelgrid.jpg" alt="grid">
+		</div>
+		<img src="i/golf_galaxy_profile_grid.jpg" alt="Golf Galaxy Dashboard with grid">
+	</div>
+
+		<div class="project_description">
+		<div class="projectintro">
+			<h2>Final high fidelity design</h2>
+			<p>I couldn't bare the thought that employees would have to use such an awful interface. The spacing was off, there were things everything. Absolutely no order. I snapped a photo and set out to make it better.</p>
+		</div>
+		<img src="i/golf_galaxy_orders.jpg" alt="golf galaxy orders">
+		<img src="i/golf_galaxy_profile.jpg" alt="golf galaxy profile">
+		<img src="i/golf_galaxy_profile_edit.jpg" alt="golf galaxy profile edit">
+	</div>
+</section>
+
+<div class="projectnav">
+	<a href="versa.htm">
+		<div class="prev">
+			<p><strong>Previous Project</strong></p>
+			<h2>Versa</h2>
+			<i class="fa fa-angle-left fa-2x"></i>
+		</div>
+	</a>
+	<a href="uxclass.htm">
+		<div class="next">
+				<p><strong>Next Project</strong></p>
+			<h2>Usability + UX</h2>
+			<i class="fa fa-angle-right fa-2x"></i>
+		</div>
+	</a>
+	<div class="largelink"><a href="mailto:hello@bensubers.com">Contact Ben <span class="fa fa-envelope-o fa-1x"></span></a></div>
+</div>
 
 <footer>
 	<div class="half left">
-			<h5>Available For Hire</h5>
+		<h5>Available For Hire</h5>
 		<p>As of mid July, I will be a Los Angeles resident. If there is an opportunity that you think might suit me, don't hesitate to reach out.</p>
 	</div>
 	<div class="connect right">
@@ -126,12 +189,11 @@
 		</div>
 	</div>
 </footer>
-
 <div class="copyright"><p>Hand Built by Ben Subers 2015</p></div>
+
 
   <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
 
   <script src="js/index.js"></script>
-
 </body>
 </html>

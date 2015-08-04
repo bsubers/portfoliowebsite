@@ -514,6 +514,12 @@ article {
 	padding-bottom: 2em;
 }
 
+.projectintro img{
+	max-width:100%;
+	float:left;
+	padding-top:2em;
+}
+
 .projectintro h2{
 	padding-top:.75em;
 }
@@ -1111,7 +1117,7 @@ text-align:center;
 		border-radius:100px;
 	}
 		.project {
-		width: 50%;
+		width: 100%;
 		margin: 0;	
 		height: auto;
 		float: left;
@@ -1351,11 +1357,6 @@ text-align:center;
 	.projectdetails .half {
 
 		width:100%;
-	}
-
-	.project{
-
-		width:33.33%;
 	}
 
 	.outercontainer, .maincontent, .projectdetails, footer, .resume {
