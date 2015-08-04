@@ -119,7 +119,6 @@ h5 ~ p {
 
 .heading {
 	font-weight: 800;
-	text-align:center;
 	font-size: 4em;
 	color: #ccc;
 	line-height: 1em;
@@ -243,6 +242,7 @@ header img:active{
 header a{
 	color: #999;
 	text-decoration: none;
+	position:relative;
 }
 
 header a:hover{
@@ -251,6 +251,14 @@ header a:hover{
 
 header a#current{
 	color: #239DCF;
+}
+
+header a#current:after{
+	color: #239DCF;
+	content:"●";
+	position: absolute;
+	left:48%;
+	top:40px;
 }
 
 .outercontainer, footer, .maincontent, .testimonial, .full .projectintro {
@@ -338,7 +346,6 @@ section {
 }
 
 .topcontent p{
-	text-align:center;
 } 
 
 .aboutpage.topcontent{
@@ -356,7 +363,7 @@ section {
 .intro h1{
 	font-size:4em;
 	color:#f5f5f5;
-	text-align: center;
+	text-align: left;
 	padding-bottom: 20px;
 	font-weight: 800;
 }
@@ -1029,7 +1036,6 @@ text-align:center;
 
 	.heading {
 	font-weight: 800;
-	text-align:center;
 	font-size:6em;
 	color: #ccc;
 }
@@ -1059,7 +1065,6 @@ text-align:center;
 		padding: 3em 0px;
 		float:left;
 		width: 100%;
-		text-align:center;
 	}
 
 	.right{
@@ -1193,11 +1198,6 @@ text-align:center;
 		padding-right:1.5em;
 	}
 
-
-	h1.heading{
-		font-size:8em;
-	}
-
 	img.banner {
 		max-width:100%;
 	}
@@ -1256,6 +1256,10 @@ text-align:center;
 		background-color: #fff;
 		left: 4em;
 		padding: 0 2em 2em 2em;
+	}
+
+	.topcontent{
+		width: 75%;
 	}
 
 
