@@ -1171,6 +1171,10 @@ text-align:center;
 		content: "";
 	}
 
+	.projectdetails .large-twothird {
+		float:left;
+	}
+
 }
 
 @media screen and (min-width: 960px) {
