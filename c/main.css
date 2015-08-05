@@ -54,7 +54,7 @@ h2 {
 	font-family: "aktiv-grotesk-std",sans-serif;
 	color: #333;
 	font-weight: 300;
-	font-size: 1.25em; /* 24px */
+	font-size: 1.125em; /* 24px */
 	line-height: 1.5em;
 	text-transform: uppercase;
 	letter-spacing:.125em;
@@ -257,8 +257,8 @@ header a#current:after{
 	color: #239DCF;
 	content:"●";
 	position: absolute;
-	left:48%;
-	top:40px;
+	right: 22.5px;
+  	top: 15px;
 }
 
 .outercontainer, footer, .maincontent, .testimonial, .full .projectintro {
@@ -569,7 +569,7 @@ article img {
 
 /*FORM*/
 form {
-	margin: 0 0 40px;
+	margin: 40px 0;
 	float:left;
 	width:100%;
 }
@@ -745,8 +745,9 @@ form textarea:focus {
 }
 
 .resume .third {
-	padding: 0 2em 2em 0;
+	padding: 0 0 2em 0;
 }
+
 .resume ul {
 	padding-top: 2em;
 }
@@ -798,7 +799,7 @@ form textarea:focus {
 
 .gallery {
 	width:100%;
-	padding:2em;
+	padding-top:2em;
 	overflow: hidden;
 }
 
@@ -840,7 +841,6 @@ footer .fa-ul {
 	display:block;
 	overflow: hidden;
 	margin-left:0;
-	padding-bottom: 20px;
 	padding-top:10px;
 }
 
@@ -916,7 +916,7 @@ a.menu-link {
 				margin: 0 0.25em;
 				float:right;
 				font-size:1.125em;
-				line-height:60px;
+				line-height:40px;
 			}
 			nav[role=navigation] li a {
 				border: 0;
@@ -990,7 +990,7 @@ text-align:center;
 	overflow: hidden;
 	width: 70%;
 	float:right;
-	margin:15px 0px 0px;
+	margin:5px 0px 0px;
 }
 .pattern-description h1 {
 	font-size: 3.4em;
@@ -1013,6 +1013,11 @@ text-align:center;
 	margin:0px 20px 0px 0px;
 }
 
+header a#current:after{
+	left:46%;
+	top:40px;
+	}
+
 
 }
 
@@ -1021,7 +1026,7 @@ text-align:center;
 @media screen and (min-width: 600px) {
 
 	h1 {
-		font-size: 3em; /* 32px */
+		font-size: 2.5em; /* 32px */
 	}
 
 	.heading {
@@ -1044,7 +1049,11 @@ text-align:center;
 	}
 
 	.outercontainer, .resume, .testimonial, .maincontent, .projectdetails, footer, 	.full .projectintro{
-		padding: 3em;
+		padding: 75px;
+	}
+
+	.projectintro {
+		padding-top:0px !important;
 	}
 
 	.about{
@@ -1132,11 +1141,6 @@ text-align:center;
 		text-align: center;
 	}
 
-	.contact{
-		padding-right: 2em;
-		width:50%;
-	}
-
 }
 
 @media screen and (min-width: 768px) {
@@ -1152,10 +1156,10 @@ text-align:center;
 		line-height:1.75em;
 		font-weight: 300;
 	}
-
+/*
 	.project_description{
 		padding: 3em 0;
-	}
+	} */
 
 	.large-onethird {
 		float:left;
@@ -1165,6 +1169,14 @@ text-align:center;
 	.large-onethird p {
 		display:inline;
 		float:left;
+	}
+
+	.resume .third {
+	padding: 0 2em 2em 0;
+	}
+
+	.third:last-child {
+		padding-right: 0px;
 	}
 
 	.large-onethird p:after {
@@ -1187,9 +1199,19 @@ text-align:center;
 		margin-top: 1em;
 	}
 
+	.contact{
+		padding-right: 2em;
+		width:50%;
+	}
+
+	.pattern {
+		margin-right: 100px;
+	}
+
 }
 
 @media screen and (min-width: 960px) {
+
 
 a.logo{
 		width: 100px;
@@ -1211,6 +1233,10 @@ a.logo{
 	a.logo:active{
 		background-position: center -200px;
 	}
+
+	nav[role=navigation]  li {
+				line-height:60px;
+			}
 
 	.about{
 		padding:0px 200px;
@@ -1254,6 +1280,7 @@ a.logo{
 		width:100%;
 		margin: 0 auto;
 		overflow: hidden;
+		padding-top:4em;
 	}
 
 	.projectintro{
@@ -1300,6 +1327,14 @@ a.logo{
 	float:right;
 }*/
 
+h1{
+	font-size: 3em;
+}
+
+h2 {
+		font-size: 1.25em;
+	}
+
 .intro h1{
 	font-size:12em;
 }
@@ -1311,10 +1346,11 @@ a.logo{
 	padding-right:1em;
 }
 .large-onethird{
-	width:30%;
+	width:33.33%;
 }
 .large-twothird{
-	width:60%;
+	width:66.66%;
+	padding-right:2em;
 }
 
 .projectdetails .large-onethird{
