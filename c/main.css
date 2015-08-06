@@ -256,7 +256,7 @@ header a#current{
 
 header a#current:after{
 	color: #239DCF;
-	content:"●";
+	content:"•";
 	position: absolute;
 	right: 22.5px;
   	top: 15px;
@@ -1191,6 +1191,10 @@ header a#current:after{
 
 @media screen and (min-width: 960px) {
 
+	.heading{
+		font-size: 6em;
+	}
+
 
 a.logo{
 		width: 100px;
@@ -1383,11 +1387,7 @@ h2 {
 	.gallery {
 	clear:both;
 	}
-
-	.outercontainer {
-		padding:3em 8em;
-	}
-
+	
 	.full .projectintro {
 		position: absolute;
 		background-color: #fff;
