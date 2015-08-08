@@ -155,9 +155,9 @@ ul li {
   color: #fff; }
 
 a {
-  color: teal;
+  color: #239DCF;
   text-decoration: none;
-  border-bottom: 1px solid teal; }
+  border-bottom: 1px solid #239DCF; }
 
 a:hover {
   color: rgba(35, 157, 207, 0.75);
@@ -393,7 +393,7 @@ article {
 .largelink a {
   padding: 1.5em;
   display: block;
-  background-color: teal;
+  background-color: #239DCF;
   color: #fff;
   border-bottom: none; }
 

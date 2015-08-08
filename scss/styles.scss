@@ -2,7 +2,7 @@
 
 @import url("reset.css");
 
-$primary-color: teal;
+$primary-color: #239DCF;
 
 /* GENERAL STYLES */
 /************Reset**************/
@@ -248,15 +248,15 @@ header a{
 }
 
 header a:hover{
-	color: #239DCF;
+	color: $primary-color;
 }
 
 header a#current{
-	color: #239DCF;
+	color: $primary-color;
 }
 
 header a#current:after{
-	color: #239DCF;
+	color: $primary-color;
 	content:"•";
 	position: absolute;
 	right: 22.5px;
